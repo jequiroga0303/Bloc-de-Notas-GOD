@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloc de Notas Atractivo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main-app-container">
+        <h1 class="app-title">¡Bienvenido a tu Bloc de Notas!</h1>
+
+        <div class="container">
+            <div class="sidebar">
+                <h3>Tus Notas</h3>
+                <ul id="note-list">
+                    </ul>
+            </div>
+
+            <div class="main-content">
+                <input type="text" id="note-title" placeholder="Título de la nota">
+                <textarea id="note-content" placeholder="Contenido de la nota"></textarea>
+                <div class="buttons">
+                    <button id="new-note-btn">Nueva</button>
+                    <button id="save-note-btn">Guardar</button>
+                    <button id="delete-note-btn">Borrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
